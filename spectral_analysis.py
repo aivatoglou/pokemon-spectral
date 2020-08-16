@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 plt.rcParams["figure.figsize"] = (15,15)
 
 # Load data
-data = pd.read_csv('pokemon_dataset.csv')
+data = pd.read_csv('data/pokemon_dataset.csv')
 print('Dataset shape: ', data.shape)
 
 # Fill null values
